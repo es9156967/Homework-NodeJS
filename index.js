@@ -19,19 +19,17 @@ function promptUser() {
   .then(function(res){
     const gitStats = {
     "name": res.data.name,
-     "bio":res.data.bio,
+    "bio":res.data.bio,
     "blog":res.data.blog,
     "public_repos":res.data.public_repos,
     "followers":res.data.followers,
     "page_Url":res.data.html_url,
     "location":res.data.location,
+    "profile_pic": res.data.avatar_url
     }
     console.log(gitStats);
-
-  })
-
-});
-
+    })
+  });
 };
 
 promptUser();
