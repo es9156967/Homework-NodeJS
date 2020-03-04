@@ -63,7 +63,9 @@ function generateReadMe(gitStats) {
 👤 **${gitStats.name}**
 
 
-<img src="${gitStats.profile_pic}" alt="avatar" style="border-radius: 16px" width="30 />
+
+  <img src="${gitStats.profile_pic}" alt="logo" width="64">
+
 
 * Github: ${gitStats.page_Url}
 * LinkedIn: ${gitStats.blog}
